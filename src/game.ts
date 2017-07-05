@@ -82,9 +82,9 @@ class Game {
         this.out.println("Arstotzka is on the brink of a nuclear war...");
         this.out.println("Only you know of this, and it is up to you to");
         this.out.println("open the bunker and get into it, first.");
-        this.out.println()
-        this.out.println("Your command words are:")
-        this.out.println("  go quit help pickup use")
+        this.out.println();
+        this.out.println("Your command words are:");
+        this.out.println("  go quit help pickup use");
         this.out.println();
         this.out.println("You are currently" + this.currentRoom.description);
         this.out.print("Exits: ");
